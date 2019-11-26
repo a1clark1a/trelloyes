@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card.js";
-import "./List.css";
+import "./list.css";
 
 const List = props => {
   const cards = props.cards.map(elem => {

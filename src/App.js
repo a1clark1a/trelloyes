@@ -1,6 +1,6 @@
 import React from "react";
 import List from "./components/List";
-import "./App.css";
+import "./app.css";
 
 class App extends React.Component {
   constructor(props) {
@@ -28,8 +28,8 @@ class App extends React.Component {
       <main className="App">
         <header className="App-header">
           <h1>TrelloYes!</h1>
-          <div className="App-List">{list}</div>
         </header>
+        <div className="App-list">{list}</div>
       </main>
     );
   }
